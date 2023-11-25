@@ -23,11 +23,11 @@ function findIndex(array) {
   return { least, greatest };
 }
 
-let firstResult = findIndex([1, 7, 5, 6, 0]); // {least: 0, greatest: 7}
-let secondResult = findIndex([3, 1, -9, -3, 2, 8]); // {least: -9, greatest: 8}
+let firstResult = findIndex([1, 7, 5, 6, 0]);
+let secondResult = findIndex([3, 1, -9, -3, 2, 8]);
 
-console.log(firstResult);
-console.log(secondResult);
+console.log(firstResult); // {least: 0, greatest: 7}
+console.log(secondResult); // {least: -9, greatest: 8}
 
 // ========= task 2 =========
 
@@ -78,8 +78,9 @@ function fromStringToNumber(str) {
 
 /* 
   Відповідь на додаткове запитання:
-  Строка 70: "degree *= 10;" - міняємо '10' на основу числення яка цікавить та отримуємо відповідь)
-  Наприклад: ('101', 2) результатом її роботи було число 5.
+  "degree *= 10;" - міняємо '10' на основу числення яка цікавить та отримуємо відповідь)
+  У "console.log" викликаємо функцію.
+  Наприклад: ('101', 2) результатом її роботи було число 5. 
   */
 
 console.log(fromStringToNumber("15")); // 15
