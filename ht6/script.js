@@ -2,7 +2,7 @@
 
 // Цей код містить відповідь на основне завдання та додаткові запитання
 function findIndex(array) {
-  if (array.length === null) {
+  if (array.length === 0) {
     return null;
   }
 
