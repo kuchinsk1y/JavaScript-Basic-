@@ -15,10 +15,10 @@ function memoize(defaultValue) {
 const memData = memoize();
 const getMemData = memData[0];
 const setMemData = memData[1];
-
+// Приклад 1:
 console.log(getMemData()); // поверне undefined
 setMemData(3);
 console.log(getMemData()); // поверне 3
-setMemData('some string');
-setMemData({ a: 'b' });
+setMemData("some string");
+setMemData({ a: "b" });
 console.log(getMemData()); // поверне { a: 'b' }
